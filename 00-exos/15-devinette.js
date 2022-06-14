@@ -28,7 +28,7 @@ for(var i = 1; i <= 6; i++){
     } else if (nbrAleatoire > nbUser) {
         alert('Visez plus haut !' + i + '/6');
     } else {
-        document.getElementById('p1').innerHTML = 'Félicitation, vous avez trouvé la réponse! Le nombremystère était ' + nbrAleatoire;
+        document.getElementById('p1').innerHTML = 'Félicitation, vous avez trouvé la réponse! Le nombre mystère était ' + nbrAleatoire;
         break; /* break sert à sortir de la boucle*/
     }
 

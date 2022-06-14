@@ -6,7 +6,7 @@ for (let i = 0; i < 10; i++) {// 1-initialisation de la variable/ 2-condition de
 
 for (let i = 0; i <= 5; i++) {
 
-    document.getElementById('tr1').innerHTML += '<tr> <td>Passage n° ' + (i + 1) + ' de la boucle </td> <td>i contient la valeur ' + i + ' qui est incrémentée à chanque passage.  </td></tr>'
+    document.getElementById('tr1').innerHTML += '<tr> <td>Passage n° ' + (i + 1) + ' de la boucle </td> <td>i contient la valeur ' + i + ' qui est incrémentée à chaque passage.  </td></tr>'
 }
 
 // FOR AVEC UN IF

@@ -7,20 +7,6 @@ for (let a = 1; a <= 10; a++) {
 }
 
 
-var nb2 = Number(prompt('Saisissez un nombre'));
-
-for (let a = 1; a <= 10; a++) {
-    document.getElementById('p2').innerHTML += nb2 + 'X' + a + ' = ' + nb2 * a+ '<br>';
-
-}
-
-
-
-//exo 2//
-
-document.getElementById('p3').innerHTML = nb1 + 'X' + nb2 + '=' + nb1 * nb2;
-
-
 
 
 
